@@ -119,10 +119,22 @@
 
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
+                <section class="hero teaser">
+                    <div class="container is-max-desktop">
+                        <div class="hero-body">
+                            <img src="img/method14.png" class="center">
+                                <h2 class="subtitle has-text-centered">
+                                    Method overview. Given an audio signal and text prompt, each is first embedded by the audio encoder and the text encoder,
+                                    respectively. Text tokens with highest similarities are chosen and used for editing images with Prompt-to-prompt, where the smoothed audio magnitude
+                                    controls the attention strength.
+                                </h2>
+                        </div>
+                    </div>
+                </section>
                 <h3>
                     Abstract
                 </h3>
-                <image src="img/method14.png" class="img-responsive" alt="overview"><br>
+<!--                <image src="img/method14.png" class="img-responsive" alt="overview"><br>-->
                 <p class="text-justify">
                     Recent advances in diffusion models have showcased promising results in the text-to-video (T2V) synthesis task.
                     However, as these T2V models solely employ text as the guidance, they tend to struggle in modeling detailed temporal dynamics.
