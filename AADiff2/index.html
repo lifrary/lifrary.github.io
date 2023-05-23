@@ -7,7 +7,9 @@
   <meta name="keywords" content="diffusion, video synthesis, generative model, multi-modal">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AADiff: Audio-Aligned Video Synthesis with Text-to-Image Diffusion</title>
-
+  <small>
+      CVPR 2023 Workshop on AI for Content Creation
+  </small>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
   <script>
@@ -120,8 +122,8 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <image src="img/method14.png" class="img-responsive" alt="overview"><br>
-        <h2 class="subtitle has-text-centered">
+      <image src="static/images/method.png" class="img-responsive" alt="overview"><br>
+        <h2>
           Method overview. Given an audio signal and text prompt, each is first embedded by the audio encoder and the text encoder, respectively. Text tokens with highest similarities are chosen and used for editing images with Prompt-to-Prompt, where the smoothed audio magnitude controls the attention strength.
         </h2>
     </div>
@@ -133,6 +135,9 @@
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
+        <h2 class="subtitle has-text-centered">
+          Sound ON for audio-aligned videos.
+        </h2>
         <div class="item item1">
           <video poster="" id="v1" autoplay controls muted loop playsinline height="100%">
             <source src="static/videos/v1.mp4"
@@ -360,7 +365,7 @@
 <!--      </a>-->
 <!--    </div>-->
     <div class="columns is-centered">
-      <div class="column is-8">
+      <div class="column is-4">
         <div class="content">
           <p>
             This website is licensed under a <a rel="license"
